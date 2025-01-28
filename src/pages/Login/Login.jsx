@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Login.css'
 import logo from '../../assets/logo.png'
+import { login, signup } from '../../firebase.config'
 const Login = () => {
 
   const [singState, setSingState] = useState("Sing In")
